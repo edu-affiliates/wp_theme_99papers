@@ -1,0 +1,427 @@
+.bonus-button {
+    background: url(img/bonus-button.png) no-repeat right center / 100% 100% ;
+
+    /*width: 100%;*/
+    min-height: 120px;
+    object-fit: contain;
+}
+
+.main-container {
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    margin-top: 56px;
+    padding: 0 10px;
+}
+.right-info {
+    padding-left: 30px;
+    flex: 1 0 240px;
+    flex-wrap: wrap;
+    min-width: 240px;
+}
+.main-info {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /*margin-right: 20px;*/
+}
+
+.main-order {
+    height: 50px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.main-order span {
+    display: block;
+    margin: 10px 40px 10px 40px;
+
+}
+
+.bonus-button {
+    /*padding-top: 25px;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-content: center;
+    align-items: center;
+
+}
+
+.second-button {
+    margin-top: 40px;
+    background-image: url('img/bonus-button-mirror.png');
+}
+
+.second-order {
+    height: 44px;
+    margin-left: 25px;
+    background-color: #30505a;
+    background-image: none;
+    margin-right: 45px;
+    border: solid 3px #ffffff;
+    min-width: 95px;
+
+}
+
+.button-name {
+    display: block;
+    margin-top: 8px;
+    text-align: center;
+    font-family: "FoundersGrotesk-Medium";
+    font-size: 20px;
+}
+
+.bonus-second-info {
+    margin-left: 27px;
+    color: #30505a;
+    font-family: "FoundersGrotesk-Semibold";
+    text-transform: uppercase;
+}
+
+.bonus-info {
+    margin-left: 27px;
+    color: #30505a;
+    font-family: "FoundersGrotesk-Semibold";
+    text-transform: uppercase;
+}
+
+.bonus-info span:first-child {
+    font-size: 14px;
+    font-family: "FoundersGrotesk-Regular";
+}
+
+.big-info {
+    font-size: 47px;
+}
+
+.main-article {
+    margin-top: 40px;
+    border-bottom: 1px solid #2f505a;
+    padding-bottom: 30px;
+}
+
+.article-header {
+    color: #23e1ca;
+    font-size: 40px;
+    font-family: "FoundersGrotesk-Semibold";
+
+}
+
+.article-date {
+    color: #f5a623;
+    font-size: 20px;
+    font-family: "FoundersGrotesk-Semibold";
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.article-info {
+    color: #30505a;
+    font-size: 20px;
+    font-family: "FoundersGrotesk-Light";
+}
+
+.article-info a {
+    color: #23e1ca;
+    text-decoration: underline;
+
+}
+
+.second-info {
+    font-family: "FoundersGrotesk-Medium";
+    font-size: 21px;
+    margin-top: -10px;
+    margin-right: 25px;
+}
+
+/**/
+
+
+.Rectangle {
+    width: 100%;
+    height: 283px;
+    border-radius: 25px;
+    background-color: #21383f;
+    border: solid 1px #23e1ca;
+}
+
+.Rectangle-container {
+    margin: 25px;
+}
+
+.Rectangle-pointer {
+    color: #23e1ca;
+    font-size: 18px;
+    font-family: "FoundersGrotesk-Regular";
+
+}
+
+.Rectangle-pointer td {
+    padding: 10px;
+}
+
+.Rectangle-text {
+    vertical-align: top;
+}
+
+.Rectangle-headline {
+    border-bottom: 1px solid #23e1ca;
+    flex-shrink: 0;
+    flex-grow:0;
+    max-height: 60px;
+    vertical-align: middle;
+    margin-top: 18px;
+    color: #30505a;
+    font-family: "FoundersGrotesk-Semibold";
+    font-size: 18px;
+
+}
+
+.Rectangle-headline img {
+    margin-right: 10px;
+}
+
+.Rectangle-headline span {
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-right: 5px;
+    float: right;
+}
+
+.Rectangle-article {
+    width: 100%;
+    margin-bottom: 60px;
+    font-family: "FoundersGrotesk-Regular";
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.72;
+    letter-spacing: normal;
+    color: #35494f;
+}
+.Rectangle-author{
+    display: flex;
+}
+.Rectangle-image{
+    width: 38px;
+    height: 38px;
+    float:left;
+    border-radius: 50%;
+    background-position: center;
+    margin-right: 12px;
+}
+.Rectangle-stars{
+    padding-top: 20px;
+}
+.Rectangle-image img {
+    border: solid 2px #f6a623;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    float: left;
+}
+.Rectangle-first-article{
+    margin-top: 30px;
+}
+.Rectangle-author-detail .client{
+    font-family: "FoundersGrotesk-Medium";
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    color: #f5a623;
+    line-height: 1;
+}
+.Rectangle-author-detail .company{
+    line-height: 1;
+}
+.Rectangle-article-text{
+    background-image: url("img/right-background.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.Rectangle-concret-pointer{
+    font-family:"FoundersGrotesk-Regular";
+    width: 100%;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.8;
+    letter-spacing: 0.8px;
+    color: #30505a;
+}
+.Rectangle-pointer-bottom{
+    margin-top: 20px;
+}
+.article-header a{
+    text-decoration: none;
+    color: #23dbe1;
+}
+.edu-calc{
+    min-width: 260px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.calculator.clearfix{
+    background-color: #30505a;
+    background-image: url("img/percent.png");
+    background-repeat: no-repeat;
+    border-radius: 0 0 30px 30px;
+    background-position: center;
+    background-size: 100%;
+    padding: 10px 1%;
+}
+.calc-header{
+    display: flex;
+    background-color: #23e1ca;
+    text-transform: uppercase;
+    color:#2f505a;
+    font-family:"FoundersGrotesk-Semibold";
+    font-size: 25px;
+    padding: 15px 0;
+    border-radius:30px 30px 0 0;
+}
+.calc-header div{
+    margin-left: 25px;
+}
+.calc-info{
+    font-size: 32px;
+    align-self: center;
+}
+.button-container{
+    padding: 10px 0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.calculator-header{
+    border:1px solid red;
+}
+.bonus-button .main-order{
+    /*margin-right: 60px;*/
+    white-space:nowrap;
+    /*margin-left: auto;*/
+}
+nav{
+   display: block;
+    margin-left: 45%;
+    margin-top: 15px;
+    font-size: 24px;
+    color: #23dbe1;
+    text-decoration: none;
+    font-family:"FoundersGrotesk-Semibold";
+
+}
+nav a{
+    color:#f5a623; !important;
+}
+@media screen and (max-width: 1140px) {
+
+
+
+    /*.big-info{ font-size: 14px;}*/
+    .Rectangle-headline img {width:30px;}
+    .calc-header{font-size: 18px}
+    .bonus-button .main-order {
+        /*margin-right: 200px;*/
+        margin-bottom: 0px;
+        white-space:normal;
+
+    }
+    .second-order{
+        margin-left: 0px;
+        margin-right: 0px;
+        white-space:normal;
+
+    }
+
+}
+@media only screen and (max-width: 1023px){
+    .right-info {
+        width: 100%;
+        margin-top:25px;
+        padding-left: 0px;
+    }
+    .main-info {width:100%;}
+    .order-button span{
+        font-size:20px;
+        white-space: nowrap;
+    }
+    .main-container {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 56px;
+    }
+
+
+}
+@media screen and (max-width: 920px) {
+    .bonus-button .main-order {
+        /*margin-right: 20px;*/
+        /*margin-left: 0px;*/
+        margin-bottom: 0px;
+        white-space:normal;
+        font-size: 14px;
+    }
+
+
+}
+@media screen and (max-width: 767px) {
+
+    .right-info {
+        padding-left: 0;
+        flex: 1 0 100%;
+        flex-wrap: wrap;
+        min-width: 240px;
+    }
+    .bonus-button {
+        background: #23e1ca;
+        border-radius: 20px;
+        padding: 20px;
+        justify-content: center;
+    }
+    .bonus-button .main-order {
+        flex: 1 1 100%;
+        margin: 0 calc((100% - 100px)/2);
+    }
+    .right-info {
+        padding-left: 0;
+        flex: 1 0 100%;
+        flex-wrap: wrap;
+        min-width: 240px;
+    }
+    .bonus-button {
+        background: #23e1ca;
+        border-radius: 20px;
+        padding: 20px;
+        justify-content: center;
+    }
+
+}
+@media screen and (max-width: 488px) {
+    .button-container{justify-content: center}
+    /*.bonus-info {display: none;}*/
+    .bonus-button .main-order{
+        width: 100%;
+        font-size: 18px;
+        margin: auto;
+        text-align: center;
+        /*margin-bottom: 50%;*/
+    }
+}
+@media screen and (max-width: 420px) {
+    .calc-info {display: none;}
+    .calc-img{ display: none;}
+    .none-info{display: none;}
+    .calc-header{font-size:14px;}
+
+
+}
+
