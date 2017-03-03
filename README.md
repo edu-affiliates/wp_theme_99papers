@@ -6,11 +6,11 @@
 
 ## How to use it?
 
-1) Download the file: wp_theme_99papers.zip
-2) Place unzipped theme in wp-content/themes/ or download zip archive via WordPress. Activate using WordPress admin panel.
-3) Add .htaccess file, if necessary.
-4) Open file wp-content/themes/wp_theme_99papers/webmaster/params.php and set partner parameters. **"rid"** parameter is required, others (**"sid"**, **"dsc"**) are optional
-5) With default options, front page contain list of posts (10 posts per page)
+1. Download the file: wp_theme_99papers.zip
+2. Place unzipped theme in wp-content/themes/ or download zip archive via WordPress. Activate using WordPress admin panel.
+3. Add .htaccess file, if necessary.
+4. Open file wp-content/themes/wp_theme_99papers/webmaster/params.php and set partner parameters. **"rid"** parameter is required, others (**"sid"**, **"dsc"**) are optional
+5. With default options, front page contain list of posts (10 posts per page)
 
 ## Example of setting partner parameters
 
