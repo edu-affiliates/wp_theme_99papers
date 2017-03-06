@@ -14,8 +14,8 @@
 
     <link rel="shortcut icon" href="/wp-content/themes/wp_theme_99papers/fav/favicon.ico">
     <link rel="icon" type="image/png" href="/wp-content/themes/wp_theme_99papers/fav/99P_Favicon_Retina.png" sizes="32x32" />
-    <link rel="icon" href="/wp-content/themes/wp_theme_99papers/fav/99P_Favicon.png" type="image/png" sizes="16x16" />
-    <link rel="shortcut icon" href="/wp-content/themes/wp_theme_99papers/fav/99P_Favicon.png" type="image/png" sizes="16x16" />
+    <link rel="icon" href="/wp-content/themes/wp_theme_99papers/fav/99P_Favicon_Retina.png" type="image/png" sizes="16x16" />
+    <link rel="shortcut icon" href="/wp-content/themes/wp_theme_99papers/fav/99P_Favicon_Retina.png" type="image/png" sizes="16x16" />
     <meta name="theme-color" content="#2f505a">
 
 	<link rel="stylesheet" href="/wp-content/themes/wp_theme_99papers/style.css?v=1" type="text/css" >
