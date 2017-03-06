@@ -1,5 +1,5 @@
 <?php
-
+    require get_template_directory() . '/webmaster/params.php';
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -24,14 +24,12 @@
     <?php if(strpos($_SERVER['HTTP_USER_AGENT'],"iPhone")){ ?>
         <link rel="stylesheet" href="/wp-content/themes/wp_theme_99papers/iphone.css" type="text/css">
     <?php } ?>
-
+    <script type="text/javascript">var eduRid = <?php echo $rid ?>;</script>
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
 
-<script>
-    window.rid="";
-</script>
+
 <div class="menu">
 	<div class="app-menu">
 		<div id="user">

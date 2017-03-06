@@ -1,16 +1,17 @@
 ##Theme Preview:
 
-![Theme-Preview](https://github.com/edu-affiliates/wp_theme_99papers/blob/master/99papers.jpg "<Sitename> preview. Essay writing service WordPress theme.")
+![Theme-Preview](https://github.com/edu-affiliates/wp_theme_99papers/blob/master/screenshot.jpg "<Sitename> preview. Essay writing service WordPress theme.")
 
 
 
 ## How to use it?
 
-1. Download the file: wp_theme_99papers.zip
-2. Place unzipped theme in wp-content/themes/ or download zip archive via WordPress. Activate using WordPress admin panel.
-3. Add .htaccess file, if necessary.
-4. Open file wp-content/themes/wp_theme_99papers/webmaster/params.php and set partner parameters. **"rid"** parameter is required, others (**"sid"**, **"dsc"**) are optional
-5. With default options, front page contain list of posts (10 posts per page)
+1. Download this theme as .zip (File name should be _wp_theme_99papers-master.zip_) file or clone repository. Change file name to _wp_theme_99papers.zip_. Unpack .zip if necessary. 
+2. Please make sure your theme folder name is **"wp_theme_99papers"**. Rename folder if its name is different.
+3. Place unzipped theme in wp-content/themes/ or download zip archive via WordPress. Activate using WordPress admin panel.
+4. Add .htaccess file, if necessary.
+5. Open file wp-content/themes/wp_theme_99papers/webmaster/params.php and set partner parameters. **"rid"** parameter is required, others (**"sid"**, **"dsc"**) are optional
+6. With default options, front page contain list of posts (10 posts per page)
 
 ## Example of setting partner parameters
 
@@ -24,7 +25,7 @@ $myURL = 'https://my.99papers.com' // default, required;
 
 ### Where can I find values of parameters?
 
-You may find all parameters in your personal account on our affiliate program. In order to start work, a personal account shall be needed. If you have any questions, not covered in this manual you may always ask our support team, they are always here to help you [support@edu-affiliates.com](support@edu-affiliates.com)
+You may find all parameters in your personal account on our affiliate program. In order to start work, a personal account shall be needed. If you have any questions, not covered in this manual you may always ask our support team, they are always here to help you [support@edu-affiliates.com](mailto:support@edu-affiliates.com)
 
 
 ### Parameter explanation

@@ -7,7 +7,7 @@
  * @package wp_theme_99papers
  */
 
-get_header('header2'); ?>
+get_header('short'); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main three-paragraphs-aside three-paragraphs-aside--404" role="main">
