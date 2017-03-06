@@ -2746,7 +2746,8 @@ iframe {
 }
 
 #page2 .menu-icon {
-    margin-top: 15px
+    margin-top: 15px;
+    display: none;
 }
 
 .app-menu {
