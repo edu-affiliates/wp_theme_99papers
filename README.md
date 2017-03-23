@@ -10,6 +10,15 @@
 2. Please make sure your theme folder name is **"wp_theme_99papers"**. Rename folder if its name is different.
 3. Place unzipped theme in wp-content/themes/ or download zip archive via WordPress. Activate using WordPress admin panel.
 4. Add .htaccess file, if necessary.
+  - In case you use apache, you must sure that:
+   1. RewriteEngine is switched on (execute _```sudo a2enmod rewrite```_ if not)
+   2. Your .htaccess have next part of code:  
+      ``` 
+          RewriteEngine on
+          RewriteCond %{REQUEST_FILENAME} !-f
+          RewriteCond %{REQUEST_FILENAME} !-d
+          RewriteRule ^.*$ /index.php [L]
+        ```
 5. Open file wp-content/themes/wp_theme_99papers/webmaster/params.php and set partner parameters. **"rid"** parameter is required, others (**"sid"**, **"dsc"**) are optional
 6. With default options, front page contain list of posts (10 posts per page)
 
