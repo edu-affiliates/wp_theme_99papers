@@ -59,6 +59,14 @@
 			<div class='copyright'><p>Copyright &#169; <?php echo date('Y');?> <?php echo $_SERVER['HTTP_HOST']?> All Rights Reserved.</p></div>
 		</div>
 	</div>
+    <script>
+    window.eduOptions = {
+        'apiMode': 'M',
+        'dev_mode': false,
+        'dsc': '',
+        'rid': 1228,
+    };
+</script>
 </footer><!-- #colophon -->
 </div><!-- #page -->
 

@@ -32,6 +32,7 @@
     margin-left: 0px;
     margin-bottom: 10px;
     text-align: center;
+    line-height: 45px;
 }
 
 .main-order span {
@@ -293,7 +294,7 @@
     align-self: center;
 }
 .button-container{
-    padding: 10px 0;
+    padding: 40px 0 10px 0;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -303,8 +304,9 @@
     border:1px solid red;
 }
 .bonus-button .main-order{
-    /*margin-right: 60px;*/
-    white-space:nowrap;
+    margin-right: 60px;
+    white-space: nowrap;
+    line-height: 45px;
     /*margin-left: auto;*/
 }
 nav{

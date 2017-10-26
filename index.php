@@ -10,12 +10,12 @@ get_header('header'); ?>
                 <div class="main-info">
                     <div class="bonus-button">
                         <div class="bonus-info">
-                            <span>Grab your essay with<br>
-                                With our special</span><br/>
-                            <span class="big-info">10% off</span>
+                            <span>Get a quick</span>
+                            <span class="big-info">Estimate</span>
                         </div>
-                        <div class="order-button main-order header-btn--order" onclick="location.href='/order.html';">
-                            <span>Order now!</span></div>
+                        <!-- <div class="order-button main-order header-btn--order" onclick="location.href='/order.html';">
+                            <span>Order now!</span>
+                        </div> -->
                     </div>
                     <?php $counter = 0; ?>
                     <?php if (have_posts()): while (have_posts()): the_post(); ?>
@@ -52,7 +52,7 @@ get_header('header'); ?>
                     <?php $counter = $counter + 1; ?>
 
 
-                    <div class="main-article">
+                    <!-- <div class="main-article">
                         <div class="edu-calc">
                             <div class="calc-header">
                                 <div class="calc-img"><img
@@ -62,7 +62,7 @@ get_header('header'); ?>
                             </div>
                         </div>
 
-                    </div>
+                    </div> -->
                     <?php
                     the_posts_pagination( $args = array(
                         'show_all' => false,

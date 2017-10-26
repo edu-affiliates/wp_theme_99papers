@@ -134,7 +134,7 @@ add_action( 'widgets_init', 'wp_theme_99papers_widgets_init' );
 function wp_theme_99papers_scripts() {
 //	wp_deregister_script( 'jquery' );
 
-	wp_register_script( 'bundle', get_template_directory_uri().'/js/bundle.js', array(), NULL, true );
+	wp_register_script( 'bundle', get_template_directory_uri().'/js/bundle-new.js', array(), NULL, true );
 	wp_enqueue_script( 'bundle' );
 }
 

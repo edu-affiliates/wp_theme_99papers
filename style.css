@@ -2469,7 +2469,6 @@ iframe {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 240px
 }
 
 .header-btn {
@@ -2487,12 +2486,14 @@ iframe {
     text-shadow: 0 0 3px rgba(0, 0, 0, .24);
     line-height: 24px;
     cursor: pointer;
-    box-sizing: border-box
+    box-sizing: border-box;
+    width: 110px;
 }
 
 .header-btn--inquiry, .header-btn--order {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .12), 0 0 1px 0 rgba(0, 0, 0, .83), inset 0 1px 0 0 rgba(255, 255, 255, .44);
-    color: #fff
+    color: #fff;
+    margin: 2px;
 }
 
 .header-btn--order {
@@ -2550,6 +2551,17 @@ iframe {
     line-height: 1.05;
     letter-spacing: .7px;
     color: #fff
+}
+
+.manage-orders {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "FoundersGrotesk-Light";
+    line-height: 30px;
+}
+
+.dashboard {
+    margin-top: 5px;
 }
 
 .manage-orders, .pricing-header .manage-orders {
@@ -2944,7 +2956,9 @@ iframe {
     margin-left: auto;
     position: relative;
     z-index: 1;
-    cursor: pointer
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
 }
 
 .order-button:active, .order-button:hover {
@@ -2995,7 +3009,6 @@ iframe {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 470px;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -6523,3 +6536,38 @@ ol {
         margin-top: 20px
     }
 }
+
+.calc-lg {
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.cl-single-price__value {
+    height: auto !important;
+}
+
+.cl-select-single.open {
+    margin-top: 20px;
+}
+
+.cl-select-single__close {
+    text-align: center;
+}
+
+.cl-select-single__close:before {
+    content: '-';
+    color: #21414a;
+    font-size: 40px;
+    margin-left: 65px;
+    margin-right: 30px;
+}
+
+.cs-counter--minus:before {
+    content: '-';
+    font-size: 20px;
+}
+
+.cs-counter--minus span {
+    display: none;
+}
+

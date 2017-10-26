@@ -3,19 +3,16 @@
 Template Name: home-template
 */
 get_header('header'); ?>
-
     <div id="primary" class="content-area">
         <main id="main" class="site-main">
             <div class="main-container">
                 <div class="main-info">
                     <div class="bonus-button">
                         <div class="bonus-info">
-                            <span>Grab your essay with<br>
-                                With our special</span><br/>
-                            <span class="big-info">10% off</span>
+                            <span>Get a quick</span> <br>
+                            <span class="big-info">Estimate</span>
                         </div>
-                        <div class="order-button main-order header-btn--order" onclick="location.href='/order.html';">
-                            <span>Order now!</span></div>
+                        <div class="order-button main-order header-btn--order order" data-name="Order now!" data-class=""></div>
                     </div>
                     <?php $counter = 0; ?>
                     <?php if (have_posts()): while (have_posts()): the_post(); ?>
@@ -51,18 +48,7 @@ get_header('header'); ?>
                     <?php endwhile; endif; ?>
                     <?php $counter = $counter + 1; ?>
 
-
-                    <div class="main-article">
-                        <div class="edu-calc">
-                            <div class="calc-header">
-                                <div class="calc-img"><img
-                                            src="/wp-content/themes/wp_theme_99papers/img/calculator.png"></div>
-                                <div class="calc-info"> USE THIS CALCULATOR TO CHECK<br> THE PRICE OF YOUR ORDER</div>
-
-                            </div>
-                        </div>
-
-                    </div>
+                    <div class="calc-lg" data-title="" data-title-discount=""></div>
                     <?php
                     the_posts_pagination( $args = array(
                         'show_all' => false,

@@ -20,6 +20,7 @@
 
 	<link rel="stylesheet" href="/wp-content/themes/wp_theme_99papers/style.css?v=1" type="text/css" >
     <link rel="stylesheet" href="/wp-content/themes/wp_theme_99papers/home.css?v=1" type="text/css">
+    <link rel="stylesheet" href="/wp-content/themes/wp_theme_99papers/calculator.css" type="text/css">
 
     <?php if(strpos($_SERVER['HTTP_USER_AGENT'],"iPhone")){ ?>
         <link rel="stylesheet" href="/wp-content/themes/wp_theme_99papers/iphone.css" type="text/css">
@@ -60,23 +61,18 @@
                 <img src="/wp-content/themes/wp_theme_99papers/img/Tel2.png">
             </div>
             <div class="header-btns">
-                <div onclick="location.href='/inquiry.html';" class="header-btn header-btn--inquiry">inqury</div>
-                <div onclick="location.href='/order.html';" class="header-btn header-btn--order">order</div>
+				<div class="inquiry" data-name="inqury" data-class="header-btn header-btn--inquiry"></div>
+ 				<div class="order" data-name="order" data-class="header-btn header-btn--order"></div>
             </div>
 			<div class="manage-orders" onclick="location.href='/dashboard.html';">
 				<img class="manage-orders__icon" src="/wp-content/themes/wp_theme_99papers/img/myorders-icon.png" alt="Orders icon" title="Click here to open your orders">
-				<p>my orders</p>
+				<p><div class="dashboard" data-name="" data-class="manage-orders">my orders</div></p>
 			</div>
 		</div>
 		<div class="main-block">
 			<div class="main-block-content-left">
 				<h1 class="main-text" id="popup-show"><span class="main-text_green">Site Slogan<br> goes her</span></h1>
 				<p class="main-text-smaller">Site second slogan</p>
-<!--				<svg width="400px" height="50px" class="strike-svg" xmlns="https://www.w3.org/2000/svg">-->
-<!--					<line x1="165" y1="27" x2="210" y2="27" stroke-width="2" stroke="white"/>-->
-<!--				</svg>-->
-
-
 				<div class="call-icon-mobile">
 				</div>
 
@@ -86,18 +82,15 @@
 					<img src="/wp-content/themes/wp_theme_99papers/img/guarantee-icon-3.png" alt="privacy" title="100% Privacy Guarantee">
 				</div>
                 <div class="button-container">
-                <div class="order-button main-order header-btn--order" onclick="location.href='/order.html';"><span>Order now!</span></div>
-                <div class="order-button second-order header-btn--inquiry" onclick="location.href='/inquiry.html';" >
-                    <div class="button-name second-button-name">INQUIRY</div>
-                </div>
+					<div class="inquiry" data-name="Order now!" data-class="order-button main-order header-btn--order"></div>
+ 					<div class="order" data-name="INQUIRY" data-class="order-button second-order header-btn--inquiry"></div>
                 </div>
 
 			</div>
 			<div class="main-block-content-right">
-                <div class="ecs">
-
-                </div>
-
+                <!-- <div class="ecs">
+                </div> -->
+				<div class="calc-sm" data-title="" data-title-discount=""></div>
 			</div>
 		</div>
 	</header><!-- #masthead -->

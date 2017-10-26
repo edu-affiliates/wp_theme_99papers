@@ -1,7 +1,7 @@
 <?php
 
 /* Type referral id here */
-$rid = 1228;
+$rid = 2100;
 
 /* Type sub id, if necessary*/
 $sid='';
