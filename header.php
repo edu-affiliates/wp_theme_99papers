@@ -1,6 +1,6 @@
-<?php
+<!-- <?php
     require get_template_directory() . '/webmaster/params.php';
-?>
+?> -->
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
