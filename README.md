@@ -4,6 +4,7 @@
 
 
 
+
 ## How to use it?
 
 1. Download this theme as .zip (File name should be _wp_theme_99papers-master.zip_) file or clone repository. Change file name to _wp_theme_99papers.zip_. Unpack .zip if necessary. 
